@@ -215,6 +215,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 245, 245, 247;
   --bs-dark-rgb: 23, 22, 26;
+  --bs-indigo-rgb: 128, 55, 211;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 23, 22, 26;
   --bs-body-color-rgb: 23, 22, 26;
@@ -15798,6 +15799,11 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-footer {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-indigo-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -42937,16 +42943,16 @@ span.highlight::after {
 -------------------------------------------- */
 ::-moz-selection {
   color: #FFFFFF;
-  background-color: #F01F4B;
+  background-color: #BC3FF2;
 }
 ::selection {
   color: #FFFFFF;
-  background-color: #F01F4B;
+  background-color: #BC3FF2;
 }
 
 ::-moz-selection {
   color: #FFFFFF;
-  background-color: #F01F4B;
+  background-color: #BC3FF2;
 }
 
 /* BODY
