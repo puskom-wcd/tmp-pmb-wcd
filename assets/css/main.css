@@ -43959,11 +43959,8 @@ code.docs-card-gist .blob-wrapper {
 h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #ffffff; /* Warna teks putih */
-  text-align: center; /* Pusatkan teks */
-  max-width: 120px; /* Membatasi lebar teks */
+  color: #000000; /* Warna teks putih */
   line-height: 1.4; /* Menambah jarak antarbaris */
-  word-wrap: break-word; /* Membuat teks panjang pindah ke baris baru */
 }
 
 /* text jalur */
