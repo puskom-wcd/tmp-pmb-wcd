@@ -546,7 +546,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -604,7 +604,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -5625,8 +5625,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+          print-color-adjust: exact;
+          /*color-adjust: exact;*/
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -40575,7 +40575,7 @@ textarea.form-control-lg {
   will-change: transform;
 }
 .btn-link.btn-accent-1, .btn-link.btn-accent-1:hover, .btn-link.btn-accent-1:focus, .btn-link.btn-accent-1.focus, .btn-link.btn-accent-1:not(:disabled):not(.disabled):active, .btn-link.btn-accent-1:not(:disabled):not(.disabled).active {
-  color: #F01F4B;
+  color: #7C00FF;
   background-color: transparent;
 }
 .btn-link:hover, .btn-link:focus {
