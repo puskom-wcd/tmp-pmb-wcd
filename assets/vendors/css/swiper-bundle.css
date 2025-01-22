@@ -1,6 +1,6 @@
 /**
- * Swiper 8.0.7
- * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * swiper 8.0.7
+ * Most modern mobile touch swiper and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
  * Copyright 2014-2022 Vladimir Kharlampidi
@@ -17,7 +17,7 @@
   font-style: normal;
 }
 :root {
-  --swiper-theme-color: #007aff;
+  --swiper-theme-color: #8c0199;
 }
 .swiper {
   margin-left: auto;
