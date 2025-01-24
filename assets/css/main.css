@@ -9610,6 +9610,10 @@ textarea.form-control-lg {
   color: #17161A;
 }
 
+@media (max-width: 600px) {
+  #carouselpmb {display: none;}
+}
+
 .carousel {
   position: relative;
 }
@@ -42851,7 +42855,7 @@ span.highlight::after {
 /* TEXT COLOR
 -------------------------------------------- */
 .text-accent-1 {
-  color: #F01F4B !important;
+  color: #8D00E1 !important;
 }
 
 .text-accent-2 {
@@ -43780,7 +43784,7 @@ code.docs-card-gist .blob-wrapper {
 }
 
 .service-card-arrow:hover {
-  color: #F01F4B;
+  color: #8D00E1;
 }
 
 .service-case .service-case-image {
