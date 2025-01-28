@@ -9614,6 +9614,10 @@ textarea.form-control-lg {
   #carouselpmb {display: none;}
 }
 
+@media (min-width: 600px) {
+  #carouselpmbmobile {display: none;}
+}
+
 .carousel {
   position: relative;
 }
@@ -41641,10 +41645,10 @@ a.card-demo {
 }
 .navbar .navbar-nav .nav-link,
 .navbar .navbar-nav .nav-link.active {
-  color: #17161A;
+  color: #FFFFFF;
 }
 .navbar .navbar-toggle {
-  color: #17161A;
+  color: #FFFFFF;
 }
 
 .nav-link {
@@ -41972,7 +41976,7 @@ body.has-topbar .navbar-top.navbar-opaque {
 }
 .navbar-mobile-style-1 .navbar-head {
   margin-bottom: 30px;
-  background-color: #fff;
+  background-color: #8037D3;
 }
 .navbar-mobile-style-1 .navbar-head .navbar-toggle {
   margin-left: auto;
