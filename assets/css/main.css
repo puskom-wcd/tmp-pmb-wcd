@@ -40643,7 +40643,7 @@ textarea.form-control-lg {
           box-shadow: none;
 }
 .accordion-header .accordion-button[aria-expanded=true] {
-  color: #F01F4B;
+  color: #6610F2;
 }
 .accordion-header .accordion-button[aria-expanded=true] h4, .accordion-header .accordion-button[aria-expanded=true] .h4 {
   color: inherit;
@@ -43986,3 +43986,9 @@ code.docs-card-gist .blob-wrapper {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow lebih besar saat hover */
 }
 
+.table-overflow{
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
