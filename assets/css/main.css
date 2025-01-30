@@ -546,7 +546,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  appearance: button;
+  -webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -604,7 +604,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  appearance: textfield;
+  -webkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -43944,57 +43944,15 @@ code.docs-card-gist .blob-wrapper {
 .page-navigation .page-navigation-next svg {
   margin-left: 30px;
 }
-/* Container utama persyaratan */
-/* Container utama */
-.d-flex.align-items-center {
-  display: flex; /* Flexbox aktif */
-  flex-direction: column; /* Arah elemen menjadi vertikal */
-  align-items: center; /* Menjaga ikon dan teks di tengah horizontal */
-  justify-content: center; /* Menjaga semuanya di tengah vertikal */
-  text-align: center; /* Pusatkan teks */
-}
 
-/* Ikon bulat */
-.icon-wrapper {
-  width: 90px;
-  height: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: whitesmoke;
-  border-radius: 50%; /* Membuat ikon berbentuk lingkaran */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px; /* Jarak antara ikon dan teks */
-}
+/* TAMBAHAN Diluar ORI */
 
-/* Ukuran ikon */
-.icon-size {
-  width: 50%;
-  height: auto; /* Menjaga proporsi ikon */
-}
-
-/* Teks */
-h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #000000; /* Warna teks putih */
-  line-height: 1.4; /* Menambah jarak antarbaris */
-}
-
-/* text jalur */
-.elementor-widget-container h2.elementor-heading-title {
-  margin-top: 20px; /* Memberi jarak dari elemen di atasnya */
-  max-width: 100%;  /* Memastikan elemen memanfaatkan seluruh lebar yang tersedia */
-  white-space: normal; /* Mengizinkan teks untuk membungkus jika diperlukan */
-  overflow: visible; /* Memastikan teks tidak dipotong */
-  text-align: center; /* Menjaga teks tetap rata tengah */
-  line-height: 1.5; /* Menambah jarak antar baris jika teks tetap turun ke bawah */
-}
 .row.gy-40 {
   display: flex;
   justify-content: center; /* Membuat elemen anak berada di tengah secara horizontal */
   align-items: center; /* (Opsional) untuk menyesuaikan tengah secara vertikal */
 }
+
 .list-whatsapp {
   list-style: none; /* Hapus angka bawaan */
   padding-left: 0; /* Hapus padding bawaan */
@@ -44026,8 +43984,5 @@ h4 {
 .pricing:hover {
   transform: translateY(-10px); /* Sedikit terangkat saat hover */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow lebih besar saat hover */
-}
-.text-justify {
-  text-align: justify;
 }
 
