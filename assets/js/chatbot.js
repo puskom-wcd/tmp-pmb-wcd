@@ -8,7 +8,7 @@ const responses = {
     "expert": "Great! Please wait a moment while we connect you with an expert.",
     "no": "Okay, if you change your mind just let me know!"
 };
-document.getElementById('chatbot-toggle-btn').addEventListener('click', toggleChatbot);
+document.getElementById('chatbot-btn').addEventListener('click', toggleChatbot);
 document.getElementById('close-btn').addEventListener('click', toggleChatbot);
 document.getElementById('send-btn').addEventListener('click', sendMessage);
 document.getElementById('user-input').addEventListener('keypress', function(e) {
