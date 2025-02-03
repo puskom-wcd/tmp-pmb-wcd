@@ -7,6 +7,7 @@ Template Baru Website PMB STMIK Widya Cipta Dharma 2025. Bootsrap 5.0
 * optimize footer
 * page template table
 * page qna
+* chatbot template
 
 ### Kontributor
 Panitia IT PMB Wicida 2025:

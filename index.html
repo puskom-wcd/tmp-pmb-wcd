@@ -20,6 +20,7 @@
   <!-- build:css -->
   <link rel="stylesheet" href="./assets/vendors/css/magnific-popup.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/chatbot.css" />
   <link rel="stylesheet" href="./assets/vendors/css/swiper-bundle.css" />
   <!-- endbuild -->
   <!-- jQuery-->
@@ -549,6 +550,19 @@
         </div>
     </div>
   </div>
+  <!-- chatbot-->
+  <button id="chatbot-toggle-btn"><img src="./assets/img/logo pmb25.png" alt="buttonpng" width="80" height="50"/></button>
+  <div class="chatbot-popup" id="chatbot-popup">
+      <div class="chat-header">
+          <span>Chatbot PMB WICIDA</span>
+          <button id="close-btn">&times;</button>
+      </div>
+      <div class="chat-box" id="chat-box"></div>
+      <div class="chat-input">
+          <input type="text" id="user-input" placeholder="Type a message...">
+          <button id="send-btn">Kirim</button>
+      </div>
+  </div>
   <!-- Footer-->
   <footer class="bg-footer text-white pb-100">
     <div class="container">
@@ -629,6 +643,7 @@
   <script src="./assets/js/controllers/stretch-column.js"></script>
   <script src="./assets/js/controllers/swiper.js"></script>
   <script src="./assets/js/controllers/others.js"></script>
+  <script src="./assets/js/chatbot.js"></script>
   <!-- endbuild -->
 </body>
 </html>
